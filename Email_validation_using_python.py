@@ -2,7 +2,7 @@ import pandas as pd
 import numpy
 import re
 
-email_condition = "^[a-z 0-9]*[/.]?[a-z]*[@][a-z 0-9]*[/.][a-z]*[/.]?[a-z]*$"
+email_condition = "^[a-z]*[/.]?[a-z  0-9]*[@][a-z]*[/.][a-z]*[/.]?[a-z]*$"
 # defining function for data wrangling 
 def wrangle(file):
     df = pd.read_csv(file)
