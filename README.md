@@ -6,8 +6,8 @@ Moreover, the importance of email validation extends to spam reduction, a critic
 In this project, we will use regular expressions using Python and SQL on an email data set. 
 We will use [email_dataset.csv](email_dataset.csv)
 
-**With Python**
-we will get output file as [clean_email_dataset.csv](clean_email_dataset.csv)
-**With SQL**
-we will get output file as [clean_email_dataset.sql](email_validation_with_SQL/output_file.sql)
+* **With Python**
+  we will get output file as [clean_email_dataset.csv](clean_email_dataset.csv)
+* **With SQL**
+  we will get output file as [clean_email_dataset.sql](email_validation_with_SQL/output_file.sql)
 
