@@ -1,17 +1,16 @@
-import sys
 from dbhelper import DBhelper
 
-class Email:
-    def __init__():
+class Email_validation:
+    def __init__(self):
         #connect to database
         self.db = DBhelper()
         
     def clean_table(self):
-        
         response = self.db.clean_table()
-        
         if response:
-            print("Registration sucessful")
+            print("Cleaning of dataset complete")
         else:
-            print("Registration Failed ")
-        self.clean_table()
+            print("Some error occured")
+            
+obj = Email_validation()
+obj.clean_table()
