@@ -11,7 +11,7 @@ def wrangle(file):
     
     #iterate through data and matching with email pattern 
     for string_data in df["EMAIL_ADDR"]:
-        if re.match(email_condition, string_data):
+        if re.match(email_condition, str(string_data)):
             valid_email.append(string_data)
     
     df_final =  df[df["EMAIL_ADDR"].isin(valid_email)]
